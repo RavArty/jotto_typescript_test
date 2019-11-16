@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Congrats from './Congrats.component';
-import { CongratsProps } from './Congrats.component';
+import { ICongratsProps } from './Congrats.component';
 import { findByTestAttr } from '../../testUtils/testUtils';
 
-const setup = (props: CongratsProps = { success: false }) => {
+const setup = (props: ICongratsProps = { success: false }) => {
   return shallow(<Congrats {...props} />);
 };
 

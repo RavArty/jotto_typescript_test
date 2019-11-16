@@ -1,9 +1,9 @@
 import React from 'react';
 
-export interface CongratsProps {
+export interface ICongratsProps {
   success: boolean;
 }
-const Congrats = (props: CongratsProps): JSX.Element => {
+const Congrats = (props: ICongratsProps): JSX.Element => {
   if (props.success) {
     return (
       <div data-test="component-congrats" className="alert alert-success">
