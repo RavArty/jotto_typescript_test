@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface IGuessedWord {
+interface IGuessedWord {
   guessedWord: string;
   letterMatchCount: number;
 }
